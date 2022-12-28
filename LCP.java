@@ -1,11 +1,5 @@
 class LCP {
 
-    public static void main(String... args) {
-        String[] arr = new String[]{"flower", "flow", "flight"};
-        Practice practice = new Practice();
-        System.out.println(practice.longestCommonPrefix(arr));
-    }
-
     public String longestCommonPrefix(String[] strs) {
         //Check the String if empty or not
         if (strs.length == 0) return "";
